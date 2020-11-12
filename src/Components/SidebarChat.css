@@ -5,15 +5,26 @@
     border-bottom: 1px solid #f6f6f6;
 }
 
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
 .sidebarChat:hover {
     background-color: #ebebeb;
 }
 
 .sidebarChat_info > h2 {
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
+    margin-left: 9px;
+}
+
+.sidebarChat_info > p {
+    margin-left: 9px;
 }
 
 .sidebarChat_info {
     margin-left: 15px;
 }
+
